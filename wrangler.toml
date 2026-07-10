@@ -1,0 +1,19 @@
+name = "nova-ai-platform"
+main = "api/boot.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+NODE_ENV = "production"
+
+# Secrets (set via wrangler secret put):
+# TELEGRAM_BOT_TOKEN
+# SUPABASE_URL
+# SUPABASE_SERVICE_KEY
+# DATABASE_URL
+# CLOUDFLARE_ACCOUNT_ID
+# CLOUDFLARE_API_TOKEN
+# APP_ID
+# APP_SECRET
+# KIMI_AUTH_URL
+# KIMI_OPEN_URL
+# OWNER_UNION_ID
